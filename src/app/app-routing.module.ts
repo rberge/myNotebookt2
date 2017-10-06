@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { IdentityComponent } from './components/identity/identity.component';
-import { HeaderComponent } from './header/header.component';
-import { LoginComponent } from './login/login.component';
-import { FooterComponent } from './footer/footer.component';
-import { MrHomeComponent } from './components/mr-home/mr-home.component';
+import { IdentityComponent } from './features/identity/identity.component';
+import { HeaderComponent } from './features/shared/header/header.component';
+import { LoginComponent } from './features/login/login.component';
+import { FooterComponent } from './features/shared/footer/footer.component';
+import { MrHomeComponent } from './features/Start/mr-home.component';
 
 const appRoutes: Routes = [
   { path: '',

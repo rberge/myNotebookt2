@@ -6,13 +6,13 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { IdentityComponent } from './components/identity/identity.component';
-import { HeaderComponent } from './header/header.component';
-import { LoginComponent } from './login/login.component';
-import { FooterComponent } from './footer/footer.component';
-import { MrHomeComponent } from './components/mr-home/mr-home.component';
-import { CreateReportSetComponent } from './components/createReportSet/create-report-set/create-report-set.component';
-import { SelectPtComponent } from './components/select-pt/select-pt.component';
+import { IdentityComponent } from './features/identity/identity.component';
+import { HeaderComponent } from './features/shared/header/header.component';
+import { LoginComponent } from './features/login/login.component';
+import { FooterComponent } from './features/shared/footer/footer.component';
+import { MrHomeComponent } from './features/Start/mr-home.component';
+import { CreateReportSetComponent } from './features/createReportSet/create-report-set/create-report-set.component';
+import { SelectPtComponent } from './features/createReport/select-pt/select-pt.component';
 
 
 @NgModule({
